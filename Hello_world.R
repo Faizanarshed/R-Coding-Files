@@ -1,0 +1,8 @@
+install.packages('ggplot2')
+install.packages("dbplyr")
+install.packages("dplR")
+install.packages("dplyr")
+library(ggplot2)
+library(dbplyr)
+library(dplR)
+library(dplyr)
