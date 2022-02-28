@@ -1,0 +1,18 @@
+library(ggplot2)
+View(CO2)
+View(PlantGrowth)
+View(iris)
+View(mtcars)
+View(trees)
+View(npk)
+
+head(CO2)
+names(CO2)
+nrow(CO2)
+ncol(CO2)
+
+install.packages("writexl")
+library(writexl)
+write_xlsx(CO2,'mydata.xlsx')
+library(ggplot2)
+ggplot(trees,aes(Girth,Height))+geom_point()+geom_smooth(method = "lm")
