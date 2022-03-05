@@ -13,9 +13,9 @@ pairs.panels(iris[,-5])
 
 #corrplot your database
 
-x1 <- read_excle("data.xlsx")
-?cor
-m <- cor([,-1])
+#x1 <- read_excle("data.xlsx")
+#?cor
+#m <- cor([-1])
 
 corrplot(m)
 
