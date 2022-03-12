@@ -25,7 +25,9 @@ install.packages("reshape")
 library(reshape)
 y1 <- melt(iris)
 ggplot(y1,aes(y1$Species,y1$variable,fill  = y1$value))+geom_tile()+
-  scale_fill_gradient(low  = "yellow",high = "red")+
+  scale_fill_gradient(low  = "green",high = "red")+
   labs(x = "Species", y = "Veriables", title = "Reshape Data")
-  
+
+#install Packages
+
 
